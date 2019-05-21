@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style type="text/css">
+
+        html, body {
+            height: 100%;
+            color: white;
+        }
+        .page{
+            padding-top: 82px;
+            height: 100%;
+        }
+        .first{
+            background: url(img/bg.jpg) no-repeat;
+            background-size: 100% 100%;
+        }
+        .second{
+            background: url(img/second.jpg) no-repeat;
+            background-size: 100% 100%;
+        }
+        .second h4, .second h3{
+            margin-top: 400px;
+        }
+        .third{
+            background: url(img/third.jpg) no-repeat;
+            background-size: 100% 100%;
+        }
+        .third h4, .third h4, .third input{
+            margin-top: 30px;
+        }
+        h4, h3{
+            padding: 5px 10px;
+            margin-left: auto;
+            margin-right: 50px;
+            width: max-content;
+            background-color: black;
+        }
+        h4{
+            font-size: 70px;
+            margin-top: 500px;
+        }
+        h3{
+            font-size: 30px;
+        }
+        textarea{
+            resize:none;
+            padding: 10px;
+            border: none;
+        }
+        .navbar .fa, .page-changer, input{
+            padding: 15px 20px;
+            font-size: 30px;
+            width: max-content;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            background: rgba(96, 96, 96, 0.6);
+            color: white;
+        }
+        .fa:hover{
+            color:rgba(0,0,0,.7);
+            text-decoration: none;
+            background-color: white;
+        }
+        .second ul, .impressum ul{
+            color: white;
+            font-size:30px;
+            background-color: black;
+            width:max-content;
+            margin-left:auto;
+            margin-right: 50px;
+            padding: 10px;
+            list-style-type:none;
+        }
+        li .fa{
+            color: white;
+            background-color: none;
+            padding: none;
+        }
+    </style>
+    <title>Kulero</title>
+  </head>
+  <body data-spy="scroll" data-target="#navbar-example2" data-offset="82">
+
+    <nav id="navbar-example2" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><h1>Kulero</h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#info">Informationen</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#buy">Bestellen</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#impressum">Impressum</a>
+            </li>
+        </ul>
+        <div id="social-buttons" class="my-2 my-lg-0">
+            <a class="fa fa-facebook" href="#"></a> <!-- Facebook -->
+            <a class="fa fa-instagram" href="https://www.instagram.com/essbares_besteck/"></a> <!-- Instagram -->
+            <a class="fa fa-envelope-square" href="mailto:kontakt@kulero.de?subject=Hallo Kulero"></a> <!-- E-Mail -->
+        </div>
+        </div>
+    </nav>
+        <div id="home" class="page first">
+            <h4 class="mx-auto2">Kulero</h4>
+            <h3 class="mx-auto2">Der nachhaltige Einweglöffel</h3>
+            <h3 class="mx-auto2">natürlich - stabil - vegan - langlebig - essbar</h3>
+            <a class="page-changer fa fa-angle-double-down nav-link mx-auto" href="#info"></a>
+        </div>
+        <div id="info" class="page second">
+            <h4>Unser Löffel</h4>
+            <ul>
+                <li>
+                    <a class="fa fa-caret-right" href="#"></a>
+                    bleibt auch bei heißen Suppen lange Stabil
+                </li>
+                <li>
+                    <a class="fa fa-caret-right" href="#"></a>
+                    beeinflusst nicht den Geschmack der Mahlzeit
+                </li>
+                <li>
+                    <a class="fa fa-caret-right" href="#"></a>
+                    besteht aus natürlichen Zutaten
+                </li>
+                <li>
+                    <a class="fa fa-caret-right" href="#"></a>
+                    ist Umweltfreundlich verpackt
+                </li>
+            </ul>
+            <a class="page-changer fa fa-angle-double-down nav-link mx-auto" href="#buy"></a>
+        </div>
+        <div id="buy" class="page third">
+            <div class="mx-auto" style="width:70%">
+
+                <h4 id="" class="">Bestellen</h4>
+                <h3 id="" class="">Schreiben Sie uns eine Nachricht!</h3>
+                <form class="px-5">
+                    <textarea name="message" class="w-100" id="" cols="100" rows="16" placeholder="Ihre Nachricht..."></textarea>
+                    <br>
+                    <input type="submit" value="Absenden" class="ml-auto">
+                </form>
+                <a class="page-changer fa fa-angle-double-down nav-link mx-auto" href="#impressum"></a>
+            </div>
+        </div>
+        <div id="impressum" class="page impressum">
+            <h4>Impressum</h4>
+            <ul>
+                <li>Hemant Chawla</li>
+                <li>Margueritenweg 3</li>
+                <li>37081 Göttingen</li>
+                <li>kontakt@kulero.de</li>
+            </ul>
+            <h3>Designed by Daniel Ackermann</h3>
+        </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
